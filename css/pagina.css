@@ -1,6 +1,4 @@
-:root{
-    font-size: 16px;
-}
+
 
 * {
     margin: 0px;
@@ -8,32 +6,43 @@
     background-color: rgba(0, 0, 0, 0);
     border: 0;
     
-}
-
-.headerContent {
-    height: 5rem;
+  }
+  
+  header{
+    width: 100vw;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
-}   
+    padding-bottom: 10px;
+    background-color: #4c68af;
+    box-shadow: 0px 0px 15px 9px rgba(142, 127, 222, 0.7); 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(247, 247, 247);
+    
+  }
 
-.menuFoot__option{
-    width: 25%;
-    height: 5rem;
-}
-
-
-
-.productsContent{
+  .headerContent{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 32px;
-}
-
-.Parrafo{
-    height: 5rem;
     justify-content: center;
     align-items: center;
+  }
+
+.ca-link{
+  text-decoration: none;
+  color: black;
 }
+
+.icono{
+  border: #4c68af;
+  border-radius: 20px;
+  height: 220px;
+  box-shadow: 0px 0px 15px 9px rgba(142, 127, 222, 0.7);
+}
+
+.icono_img{
+  width: 220px;
+  height: 210px;
+}
+  
